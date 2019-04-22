@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Verdana;
+	margin: 0 auto;
+}
+
+	/*HEADER*/
+.header{
+	background-color: white;
+}
+
+.logo{
+	font-size: 35px;
+}
+
+.logo img{
+	width: 30px;
+}
+
+.logo span{
+	color: #65a9d9;
+}
