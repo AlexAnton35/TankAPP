@@ -91,6 +91,14 @@ body{
 	font-size: 16px;
 }
 
+.content-banner-block .your_email,
+.content-banner-block .submit-button{
+	flex-direction: column;
+	align-content: space-around;
+	width: 50%;
+	display: inline-block;
+}
+
 .signup .yellow-bg{
 	background-color: #ffce54;
 	border-radius: 3px;
