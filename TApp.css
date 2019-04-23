@@ -9,6 +9,7 @@ body{
 	width: 1500px;
 	height: 3458px;
 	margin: 0 auto;
+	background-color: white;
 }
 
 			/*HEADER*/
@@ -91,7 +92,8 @@ body{
 	font-size: 12px;
 
 }
-	/*Не меняет нечиго*/
+
+	/*Form Field*/
 .form-place{
 	display: flex;
 	align-items: center;
@@ -105,7 +107,6 @@ body{
 	font-weight: bold; 
 }
 
-	/*Form*/
 	/*Email*/
 .input_field_email{
 	width: 255px;
@@ -138,4 +139,16 @@ body{
 	font-size: 20px;
 	color: white;
 	
+}
+
+	/*HAND*/
+.hand{
+	display: flex;
+	justify-content: flex-end;
+	
+	
+}
+.hand img{
+	padding-top: 100px;
+	height: 843px;
 }
