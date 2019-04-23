@@ -47,7 +47,7 @@ body{
 .nav a{
 	margin: 0 5px 0 5px;
 	color: #818994;
-	text-decoration: none
+	text-decoration: none;
 }
 
 .nav a:hover{
@@ -88,21 +88,18 @@ body{
 }
 
 .content-banner-block .signup{
-	font-size: 16px;
+	font-size: 12px;
+
 }
 	/*Не меняет нечиго*/
-.content-banner-block .your_email,
-.content-banner-block .submit-button{
-	flex-direction: column;
-	align-content: space-around;
-	width: 50%;
-	display: inline-block;
-}
+
 
 .signup .yellow-bg{
 	background-color: #ffce54;
 	border-radius: 3px;
 	padding: 3px;
+	font-size: 12px;
+	font-weight: bold; 
 }
 
 	/*Form*/
