@@ -1,0 +1,128 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Verdana;
+	margin: 0 auto;
+	width: 1500px;
+	height: 3458px;
+	margin: 0 auto;
+}
+
+			/*HEADER*/
+	
+.header{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+	/*LOGO*/
+.logo{
+	font-size: 35px;
+	margin: 10px 10px 10px 100px;
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	width: 30px;
+	margin-right: 5px;
+}
+
+.logo span{
+	color: #65a9d9;
+}
+
+	/*NAV*/
+.nav{
+	font-size: 16px;
+	margin: 10px 100px 10px 10px;
+	display: flex;
+	align-items: center;
+}
+
+.nav a{
+	margin: 0 5px 0 5px;
+	color: #818994;
+	text-decoration: none
+}
+
+.nav a:hover{
+	color: #646a72;
+}
+
+
+			/*BANNER*/
+.banner{
+	background-image: url(img/banner/backgrounf_for_banner.png);
+	display: flex;
+}
+
+	/*Fuel Shop*/
+/*.fuel_shop{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 50%;
+	color: white;
+}*/
+
+	/*Content Banner Bblock*/
+.content-banner-block{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	color: white;
+}
+
+.content-banner-block h2{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.content-banner-block p{
+	margin-bottom: 25px;
+}
+
+.content-banner-block .signup{
+	font-size: 16px;
+}
+
+.content-banner-block .your_email,
+.content-banner-block .submit-button{
+	flex-direction: column;
+	align-content: space-around;
+	width: 50%;
+	display: inline-block;
+}
+
+.signup .yellow-bg{
+	background-color: #ffce54;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+	/*Form*/
+	/*Email*/
+.input_field_email{
+	width: 250px;
+	height: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+	/*Button*/
+.input_submit_button{
+	height: 30px;
+	width: 80px;
+	border-radius: 5px;
+}
