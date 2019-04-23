@@ -151,4 +151,5 @@ body{
 .hand img{
 	padding-top: 100px;
 	height: 843px;
+	/*max-width: 70%;*/
 }
