@@ -143,9 +143,9 @@ body{
 
 	/*HAND*/
 .hand{
+	width: 50%;
 	display: flex;
 	justify-content: flex-end;
-	
 	
 }
 .hand img{
