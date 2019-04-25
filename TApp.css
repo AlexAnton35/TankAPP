@@ -230,7 +230,8 @@ body{
 	position: relative;
 	background-image: url(img/WhyUS/macbook_PNG.png);
 	/* background-position:  left center; */
-	background-position: 145px 5em; 
+	/*background-position: 607% 5em; для width 100% */
+	background-position: 145px 5em; /*для width 1500px*/
 	background-repeat: no-repeat;
 }
 .mac-book img{
