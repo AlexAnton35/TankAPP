@@ -6,9 +6,9 @@
 body{
 	font-family: Verdana;
 	margin: 0 auto;
-	/* width: 1500px; */
-	width: 100%;
-	height: 100%; 
+	/* width: 1500px;  */
+	 width: 100%;
+	height: 100%;  
 	margin: 0 auto;
 	background-color: white;
 }
@@ -227,6 +227,11 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+	background-image: url(img/WhyUS/macbook_PNG.png);
+	/* background-position:  left center; */
+	background-position: 145px 5em; 
+	background-repeat: no-repeat;
 }
 .mac-book img{
 	/* width: 1078px;
