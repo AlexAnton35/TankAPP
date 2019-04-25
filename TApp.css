@@ -163,7 +163,7 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	background-color: #f8f8f8;
-	padding: 60px 157px 60px 175px;
+	padding: 60px 175px 60px 175px;
 }
 
 /*04 WHY US*/
@@ -185,7 +185,7 @@ body{
 /*Text Content*/
 .text-content{
 	width: 40%;
-	padding: 50px; 
+	padding: 100px; 
 }
 
 .text-content ul{
@@ -217,6 +217,7 @@ body{
 	display: flex;
 	align-items: center;
 	margin-bottom: 20px;
+
 }
 
 
@@ -228,7 +229,10 @@ body{
 	align-items: center;
 }
 .mac-book img{
+	/* width: 1078px;
+	height: 630px; */
 	width: 100%;
+	position: absolute;
 }
 
 		/*Why Different*/
@@ -236,6 +240,7 @@ body{
 .why-different{
 	display: flex;
 	flex-wrap: wrap;
+	background-color: #f6f6f7;
 }
 
 .why-different h2{
@@ -244,4 +249,27 @@ body{
 	color: #424c5e;
 	font-size: 40px;
 	margin: 80px 0 80px 0;
+}
+
+.why-tank-app_text{
+	width: 60%;
+	padding: 100px; 
+}
+
+.why-tank-app_text h3{
+	/* justify-content: center; */
+	display: inline-block;
+	margin-left: 70px;
+	color: #424c5e;
+	font-size: 20px;
+}
+
+.why-tank-app_text img{
+	position: absolute;
+	width: 53px;
+}
+
+.why-tank-app_text p{
+	color: #9499a2;
+	font-size: 14px;
 }
