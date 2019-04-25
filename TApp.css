@@ -6,21 +6,22 @@
 body{
 	font-family: Verdana;
 	margin: 0 auto;
+	/* width: 1500px; */
 	width: 100%;
-	height: 100%;
+	height: 100%; 
 	margin: 0 auto;
 	background-color: white;
 }
 
-			/* 01 HEADER*/
-	
+/* 01 HEADER*/
+
 .header{
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
 }
 
-	/*LOGO*/
+/*LOGO*/
 .logo{
 	font-size: 35px;
 	margin: 10px 10px 10px 100px;
@@ -37,7 +38,7 @@ body{
 	color: #65a9d9;
 }
 
-	/*NAV*/
+/*NAV*/
 .nav{
 	font-size: 16px;
 	margin: 10px 100px 10px 10px;
@@ -56,13 +57,13 @@ body{
 }
 
 
-			/*02 BANNER*/
+/*02 BANNER*/
 .banner{
 	background-image: url(img/banner/backgrounf_for_banner.png);
 	display: flex;
 }
 
-	/*Fuel Shop*/
+/*Fuel Shop*/
 .fuel_shop{
 	display: flex;
 	flex-direction: column;
@@ -73,7 +74,7 @@ body{
 	color: white;
 }
 
-	/*Content Banner Bblock*/
+/*Content Banner Bblock*/
 .content-banner-block{
 	display: flex;
 	flex-direction: column;
@@ -93,7 +94,7 @@ body{
 
 }
 
-	/*Form Field*/
+/*Form Field*/
 .form-place{
 	display: flex;
 	align-items: center;
@@ -107,7 +108,7 @@ body{
 	font-weight: bold; 
 }
 
-	/*Email*/
+/*Email*/
 .input_field_email{
 	width: 255px;
 	height: 40px;
@@ -121,7 +122,7 @@ body{
 }
 
 
-	/*Button*/
+/*Button*/
 .submit-button{
 	margin-left: 15%;
 }
@@ -141,7 +142,7 @@ body{
 	
 }
 
-	/*HAND*/
+/*HAND*/
 .hand{
 	width: 50%;
 	display: flex;
@@ -155,7 +156,7 @@ body{
 	/*max-width: 70%;*/
 }
 
-			/*03 CLIENTS*/
+/*03 CLIENTS*/
 
 .clients{
 	display: flex;
@@ -165,7 +166,7 @@ body{
 	padding: 60px 157px 60px 175px;
 }
 
-			/*04 WHY US*/
+/*04 WHY US*/
 
 .why-us{
 	display: flex;
@@ -176,11 +177,15 @@ body{
 .why-us h2{
 	width: 100%;
 	text-align: center;
-	margin: 60px 0 60px 0;
+	color: #424c5e;
+	font-size: 40px;
+	margin: 80px 0 80px 0;
 }
-	/*Text Content*/
+
+/*Text Content*/
 .text-content{
 	width: 40%;
+	padding: 50px; 
 }
 
 .text-content ul{
@@ -191,3 +196,52 @@ body{
 	margin-bottom: 35px;
 }
 
+.text-content h3{
+	/* justify-content: center; */
+	display: inline-block;
+	margin-left: 70px;
+	color: #424c5e;
+	font-size: 20px;
+}
+
+.text-content p{
+	color: #9499a2;
+	font-size: 14px;
+}
+
+.text-content img{
+	position: absolute;
+} 
+
+.inline-center{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+
+/*Mac-book*/
+.mac-book {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mac-book img{
+	width: 100%;
+}
+
+		/*Why Different*/
+
+.why-different{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.why-different h2{
+	width: 100%;
+	text-align: center;
+	color: #424c5e;
+	font-size: 40px;
+	margin: 80px 0 80px 0;
+}
