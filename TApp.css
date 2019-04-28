@@ -13,6 +13,13 @@ body{
 	background-color: white;
 }
 
+	/*WRAPPR*/
+.wrapper{
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+
 /* 01 HEADER*/
 
 .header{
@@ -278,4 +285,24 @@ body{
 .why-tank-app_text p{
 	color: #9499a2;
 	font-size: 14px;
+}
+
+	/*Numbers*/
+.numbers{
+	width: 100%;
+	color: #bec1c7;
+	align-items: center;
+	margin: 80px;
+}
+
+.numbers p{
+	box-sizing: border-box; 
+	font-size: 15px;
+}
+
+.numbers span{
+	align-items: center;
+	background-color: #64a4d7;
+	border-radius: 50%;
+	margin-right: 5px;  
 }
