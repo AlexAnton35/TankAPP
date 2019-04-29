@@ -316,28 +316,3 @@ body{
 	 
 }
 
-/* .boats{
-	width: 40%;
-	background-image: url(img/05-WhyDiff/Boats.png);
-	background-position: 98% 70%;
-}
- */
-
-
-/* Test 
-.boats{
-	width: 40%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	background-image: url(img/05-WhyDiff/Boats.png);
-	background-position: 98% 70%;
-	background-position:  100% 100%;
-	background-position:  left center;
-	background-position: 607% 5em; для width 100%
-	background-position: 145px 5em; для width 1500px
-	background-repeat: no-repeat;
-	
-
-} */
