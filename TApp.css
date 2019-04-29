@@ -253,8 +253,13 @@ body{
 .why-different{
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #9B9D9D;
+	background-color: #f5f5f6;
+	/* background-color: #9B9D9D; */
 	/* background-color: #f5f5f6; */
+	background-image: url(img/05-WhyDiff/Boats.png);
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+
 }
 
 .why-different h2{
@@ -294,7 +299,7 @@ body{
 	justify-content: center;
 	width: 100%;
 	color: #bec1c7;
-	margin: 80px;
+	margin: 30px;
 }
 
 .numbers p{
@@ -306,10 +311,20 @@ body{
 .numbers span{
 	padding: 5px 8px 5px 8px;
 	background-color: #64a4d7;
+	color: white;
 	border-radius: 50%;
 	 
 }
 
+/* .boats{
+	width: 40%;
+	background-image: url(img/05-WhyDiff/Boats.png);
+	background-position: 98% 70%;
+}
+ */
+
+
+/* Test 
 .boats{
 	width: 40%;
 	display: flex;
@@ -317,9 +332,12 @@ body{
 	align-items: center;
 	position: relative;
 	background-image: url(img/05-WhyDiff/Boats.png);
+	background-position: 98% 70%;
 	background-position:  100% 100%;
-	/* background-position:  left center; */
-	/*background-position: 607% 5em; для width 100% */
-	/* background-position: 145px 5em; */ /*для width 1500px*/
-	/* background-repeat: no-repeat; */
-}
+	background-position:  left center;
+	background-position: 607% 5em; для width 100%
+	background-position: 145px 5em; для width 1500px
+	background-repeat: no-repeat;
+	
+
+} */
