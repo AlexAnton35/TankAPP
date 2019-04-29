@@ -20,7 +20,7 @@ body{
 }
 
 
-/* 01 HEADER*/
+						/* 01 HEADER*/
 
 .header{
 	background-color: white;
@@ -64,9 +64,9 @@ body{
 }
 
 
-/*02 BANNER*/
+						/*02 BANNER*/
 .banner{
-	background-image: url(img/banner/backgrounf_for_banner.png);
+	background-image: url(img/02-Banner/backgrounf_for_banner.png);
 	display: flex;
 }
 
@@ -163,7 +163,7 @@ body{
 	/*max-width: 70%;*/
 }
 
-/*03 CLIENTS*/
+						/*03 CLIENTS*/
 
 .clients{
 	display: flex;
@@ -173,7 +173,7 @@ body{
 	padding: 60px 175px 60px 175px;
 }
 
-/*04 WHY US*/
+						/*04 WHY US*/
 
 .why-us{
 	display: flex;
@@ -192,7 +192,7 @@ body{
 /*Text Content*/
 .text-content{
 	width: 40%;
-	padding: 100px; 
+	padding: 100px 0 100px 100px; 
 }
 
 .text-content ul{
@@ -235,7 +235,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	background-image: url(img/WhyUS/macbook_PNG.png);
+	background-image: url(img/04-WhyUS/macbook_PNG.png);
 	/* background-position:  left center; */
 	/*background-position: 607% 5em; для width 100% */
 	background-position: 145px 5em; /*для width 1500px*/
@@ -248,12 +248,13 @@ body{
 	position: absolute;
 }
 
-		/*Why Different*/
+						/* 05 Why Different*/
 
 .why-different{
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #f6f6f7;
+	background-color: #9B9D9D;
+	/* background-color: #f5f5f6; */
 }
 
 .why-different h2{
@@ -289,20 +290,36 @@ body{
 
 	/*Numbers*/
 .numbers{
+	display: flex;
+	justify-content: center;
 	width: 100%;
 	color: #bec1c7;
-	align-items: center;
 	margin: 80px;
 }
 
 .numbers p{
 	box-sizing: border-box; 
 	font-size: 15px;
+	
 }
 
 .numbers span{
-	align-items: center;
+	padding: 5px 8px 5px 8px;
 	background-color: #64a4d7;
 	border-radius: 50%;
-	margin-right: 5px;  
+	 
+}
+
+.boats{
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-image: url(img/05-WhyDiff/Boats.png);
+	background-position:  100% 100%;
+	/* background-position:  left center; */
+	/*background-position: 607% 5em; для width 100% */
+	/* background-position: 145px 5em; */ /*для width 1500px*/
+	/* background-repeat: no-repeat; */
 }
