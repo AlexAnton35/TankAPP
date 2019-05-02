@@ -134,6 +134,10 @@ body{
 	margin-left: 15%;
 }
 
+.email-feedback .submit-button{
+	margin-left: 0; 
+}
+
 .submit-button input:hover{
 	background-color: #70e522;
 }
