@@ -116,7 +116,12 @@ body{
 }
 
 /*Email*/
-.input_field_email{
+
+.your_email{
+	background-color: white;
+	border-radius: 10px;
+}
+/* .input_field_email{
 	width: 255px;
 	height: 40px;
 	padding: 5px;
@@ -126,12 +131,69 @@ body{
 
 .input_field_email placeholder{
 	color: #c7cacf;
+} */
+
+
+/* Nao */
+.input--nao {
+	overflow: hidden;
+	padding-top: 1em;
+}
+
+.input__field--nao {
+	padding: 0.5em 0em 0.25em;
+	width: 100%;
+	background: transparent;
+	color: #9da8b2;
+
+	font-size: 1.25em;
+}
+
+.input__label--nao {
+	position: absolute;
+	top: 0.95em;
+	font-size: 0.85em;
+	left: 0;
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 0em;
+	pointer-events: none;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transition: -webkit-transform 0.2s 0.15s, color 1s;
+	transition: transform 0.2s 0.15s, color 1s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.graphic--nao {
+	stroke: #92989e;
+	pointer-events: none;
+	-webkit-transition: -webkit-transform 0.7s, stroke 0.7s;
+	transition: transform 0.7s, stroke 0.7s;
+	-webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+	transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+} 
+
+.input__field--nao:focus + .input__label--nao,
+.input--filled .input__label--nao {
+	color: #333;
+	-webkit-transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
+	transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
+}
+
+.input__field--nao:focus ~ .graphic--nao,
+.input--filled .graphic--nao {
+	stroke: #333;
+	-webkit-transform: translate3d(-66.6%, 0, 0);
+	transform: translate3d(-66.6%, 0, 0);
 }
 
 
 /*Button*/
-.submit-button{
-	margin-left: 15%;
+ .submit-button{
+	 margin-left: 15%; 
 }
 
 .email-feedback .submit-button{
@@ -151,7 +213,12 @@ body{
 	font-size: 20px;
 	color: white;
 	
-}
+} 
+
+
+
+
+
 
 /*HAND*/
 .hand{
@@ -354,9 +421,9 @@ body{
 	position: relative;
 	z-index: 1;
 	display: inline-block;
-	margin: 1em;
-	margin-right: 60px;
-	width: 30%;
+	/* margin: 1em; */
+	padding-right: 20px;
+	/* width: 30%; */
 	vertical-align: top;
 }
 
@@ -364,12 +431,12 @@ body{
 	position: relative;
 	display: block;
 	float: right;
-	padding: 0.8em;
-	width: 60%;
+	padding: 16px 16px 16px 60px;
+	/* width: 60%; */
 	border: none;
 	border-radius: 0;
-	background: #f0f0f0;
-	color: #aaa;
+	/* background: #f0f0f0; */
+	color: black;
 	font-weight: 400;
 	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	-webkit-appearance: none; /* for box shadows to show on iOS */
@@ -428,12 +495,13 @@ body{
 /* Manami */
 .input--manami {
 	overflow: hidden;
+	width: 30%;
 }
 
 .input__field--manami {
 	width: 100%;
 	background: transparent;
-	padding: 0.5em;
+	padding: 1em;
 	margin-bottom: 2em;
 	color: #f9f7f6;
 	z-index: 100;
