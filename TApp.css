@@ -621,3 +621,10 @@ body{
 .footer-logo img{
 	margin-left: 7px;
 }
+
+
+		/*Adaptation*/
+/*@media screen and (max-widgh: брейкпоинт)*/
+
+
+@media screen and (max-widgh: 1024px)
