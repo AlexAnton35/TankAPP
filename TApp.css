@@ -198,6 +198,7 @@ body{
 
 .email-feedback .submit-button{
 	margin-left: 0; 
+	margin-right: 50px;
 }
 
 .submit-button input:hover{
@@ -496,13 +497,14 @@ body{
 .input--manami {
 	overflow: hidden;
 	width: 30%;
+	margin-right: 50px;
 }
 
 .input__field--manami {
 	width: 100%;
 	background: transparent;
 	padding: 1em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	color: #f9f7f6;
 	z-index: 100;
 	opacity: 0;
