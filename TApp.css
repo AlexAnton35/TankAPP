@@ -62,8 +62,8 @@ body{
 }
 
 .nav a:hover{
-	color: #00FF06;
-	/*color: #646a72;*/
+	/* color: #00FF06; */
+	color: #646a72;
 }
 
 
