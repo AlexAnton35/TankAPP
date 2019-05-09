@@ -796,6 +796,10 @@ body{
 
 
 
+
+
+
+
 /*WRAPPR*/
 .wrapper{
 	max-width: 768px;
@@ -816,13 +820,21 @@ body{
 /*NAV*/
 .nav{
 	margin: 10px 10px 10px 10px;
+	font-size: 18px;
 }
 
 	/* 02 BANNER*/
 
+
+.banner:hover .hand{
+	padding-left: 100px;
+}  
+
+
 /*Fuel Shop*/
 .fuel_shop{
 	width: 60%;
+	padding-left: 20px;
 }
 
 /*Button*/
