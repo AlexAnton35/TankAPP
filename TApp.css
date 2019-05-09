@@ -64,7 +64,7 @@ body{
 .nav a:hover{
 	/* color: #00FF06; */
 	color: #646a72;
-	
+
 	
 }
 
@@ -780,6 +780,161 @@ body{
 
 
 
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+
+
+/*WRAPPR*/
+.wrapper{
+	max-width: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+
+	/* 01 HEADER*/
+
+/*LOGO*/
+.logo{
+	margin: 10px 10px 10px 20px;
+
+}
+
+/*NAV*/
+.nav{
+	margin: 10px 10px 10px 10px;
+}
+
+	/* 02 BANNER*/
+
+/*Fuel Shop*/
+.fuel_shop{
+	width: 60%;
+}
+
+/*Button*/
+ .submit-button{
+	 margin-left: 8%; 
+}
+
+
+/*Hand*/
+.hand{
+ 	width: 40%;
+ 	justify-content: initial;
+
+}
+
+
+	/*03 Clients*/
+
+.clients{
+	justify-content: center;
+	padding: 60px 0px 60px 0px;
+}
+
+.clients img{
+	margin: 0 20px 0 20px;
+}
+
+
+	/*04 WHY US*/
+
+.why-us{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: white;
+}
+/*Text Content*/
+.text-content{
+	width: 60%;
+	padding: 100px 20px 100px 50px; 
+}
+/*Mac-book*/
+.mac-book {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-image: url(img/04-WhyUS/1024px/mac-small-PSD.png);
+	/* background-position:  left center; */
+	/*background-position: 607% 5em; для width 100% */
+	/*background-position: 145px 5em; для width 1500px*/
+	background-position: 0px 5em; 
+	background-repeat: no-repeat;
+}
+
+
+	/* 05 Why Different*/
+
+.why-different{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #f5f5f6;
+	background-image: url(img/05-WhyDiff/Boats.png);
+	background-position: -50% 80%;
+	background-repeat: no-repeat;
+
+}
+
+.why-tank-app_text{
+	width: 60%;
+	padding: 70px 70px 70px 50px;
+}
+
+
+
+	/* 07 Footer */
+
+/*LOGO Footer*/
+.logo-footer{
+	font-size: 35px;
+	margin: 10px 10px 10px 20px;
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+
+.nav-footer{
+	font-size: 16px;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+.footer-share{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 20px 0;
+}
+
+.footer-share a {
+	margin: 0 20px 0 20px;
+}
 
 
 }
