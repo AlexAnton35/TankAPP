@@ -308,9 +308,6 @@ body{
 /*Mac-book*/
 .mac-book {
 	width: 60%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	position: relative;
 	background-image: url(img/04-WhyUS/macbook_PNG.png);
 	/* background-position:  left center; */
@@ -705,14 +702,8 @@ body{
 /*Mac-book*/
 .mac-book {
 	width: 40%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	position: relative;
 	background-image: url(img/04-WhyUS/1024px/mac-small-PSD.png);
-	/* background-position:  left center; */
-	/*background-position: 607% 5em; для width 100% */
-	/*background-position: 145px 5em; для width 1500px*/
 	background-position: 0px 5em; 
 	background-repeat: no-repeat;
 }
@@ -884,20 +875,7 @@ body{
 	font-size: 16px;
 }
 
-/*Mac-book*/
-.mac-book {
-	width: 40%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	background-image: url(img/04-WhyUS/1024px/mac-small-PSD.png);
-	/* background-position:  left center; */
-	/*background-position: 607% 5em; для width 100% */
-	/*background-position: 145px 5em; для width 1500px*/
-	background-position: 0px 5em; 
-	background-repeat: no-repeat;
-}
+
 
 
 	/* 05 Why Different*/
@@ -972,3 +950,273 @@ body{
 
 
 }
+
+
+
+
+
+@media screen and (max-width: 425px){
+
+/*WRAPPR*/
+.wrapper{
+	max-width: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+
+	/* 01 HEADER*/
+
+.header{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+/*LOGO*/
+.logo{
+	margin: 50px 10px 10px 20px;
+	justify-content: center;
+}
+
+/*NAV*/
+.nav{
+	flex-direction: column;
+	margin: 10px 10px 10px 10px;
+	font-size: 18px;
+}
+
+.nav a{
+	margin: 10px 10px 10px 10px;
+}
+
+	/* 02 BANNER*/
+.banner{
+	background-position: -18% 3%;
+
+}
+
+
+/* .banner:hover .hand{
+	padding-left: 100px;
+}   */
+
+
+/*Fuel Shop*/
+.fuel_shop{
+	width: 100%;
+	height: 500px;
+	padding-left: 0;
+	margin: 30px 10px 30px 10px;
+}
+
+.content-banner-block{
+	padding:;
+}
+
+.content-banner-block p{
+	font-size: 18px;
+	padding: 0 10px 0 0;
+}
+
+.content-banner-block .signup{
+	font-size: 18px;
+}
+
+/*Email*/
+
+.your_email{
+	margin: 20px 0 0 0;
+}
+
+
+/*Button*/
+ .submit-button{
+	 margin: 30px 0 10px 0; 
+
+}
+
+
+.form-place{
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+/*Hand*/
+.hand{
+	display: none;
+ 	justify-content: initial;
+
+}
+
+
+	/*03 Clients*/
+
+.clients{
+	justify-content: center;
+	flex-direction: column;
+	padding: 60px 0px 60px 0px;
+}
+
+.clients img{
+	margin: 20px 0 20px 0;
+}
+
+
+	/*04 WHY US*/
+
+.why-us{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: white;
+}
+/*Text Content*/
+.text-content{
+	width: 100%;
+	padding: 20px 30px 50px 50px; 
+}
+
+.text-content p{
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+/*Mac-book*/
+.mac-book {
+	display: none;
+	
+}
+
+
+	/* 05 Why Different*/
+
+.why-different{
+	background-position: 71% -25%;
+	
+}
+
+.why-different h2 {
+	margin: 80px 0 0 0;
+}
+
+.why-tank-app_text{
+	width: 100%;
+	padding: 70px 70px 70px 50px;
+}
+
+
+	/*06 Save Time*/
+
+.save-time{
+	padding: 0 40px 0 40px;
+} 
+
+.email-feedback{
+	flex-direction: column;
+	margin: 50px 10px 50px 10px;
+}
+
+.input--manami{
+	width: 100%;
+	margin: 0;
+}
+
+.email-feedback .submit-button{
+	margin: 10px;
+}
+
+
+
+	/* 07 Footer */
+
+/*LOGO Footer*/
+.logo-footer{
+	font-size: 35px;
+	margin: 10px 10px 10px 20px;
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+
+.nav-footer{
+
+	display: flex;
+	font-size: 15px;
+}
+
+
+.nav-footer a{
+	/* margin: 10px 100px 10px 0; */
+	
+	
+}
+
+
+
+.footer-share{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 20px 0 20px 0;
+}
+
+.footer-share a {
+	margin: 10px 20px 10px 20px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
