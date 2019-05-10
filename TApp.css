@@ -959,7 +959,7 @@ body{
 
 /*WRAPPR*/
 .wrapper{
-	max-width: 768px;
+	max-width: 425px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -1145,13 +1145,7 @@ body{
 
 	/* 07 Footer */
 
-/*LOGO Footer*/
-.logo-footer{
-	font-size: 35px;
-	margin: 10px 10px 10px 20px;
-	display: flex;
-	align-items: center;
-}
+
 
 
 
@@ -1193,12 +1187,84 @@ body{
 
 
 
+@media screen and (max-width: 375px){
+
+/*WRAPPR*/
+.wrapper{
+	max-width: 375px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+	/* 02 BANNER*/
+.banner{
+	background-position: -15% 25%;
+
+}
+
+	/* 05 Why Different*/
+
+.why-different{
+	background-position: 70% -50%;
+	
+}
+
+	/* 07 Footer */
+
+.nav-footer{
+	text-align: center;
+	display: flex;
+	font-size: 18px;
+	margin: 0;
+}
+
+}
 
 
+@media screen and (max-width: 320px){
+
+/*WRAPPR*/
+.wrapper{
+	max-width: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+}
 
 
+	/* 02 BANNER*/
+.banner{
+	background-position: -10% 15%;
+
+}
+
+/*Fuel Shop*/
+.fuel_shop{
+	height: 600px;
+}
 
 
+	/* 05 Why Different*/
+
+.why-different{
+	background-position: 68% 950%;	
+	
+}
+
+	/* 07 Footer */
+
+.footer{
+	flex-direction: column;
+}
+
+.logo-footer{
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0 20px 0; 
+}
+
+
+}
 
 
 
